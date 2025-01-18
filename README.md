@@ -1,23 +1,28 @@
 # tic-tac-toe-spec
 
-This is a specification of a game of tic-tac-toe. It tests the important parts of a programming language and their ecosystem:
+This is a specification of a game of tic-tac-toe. It tests the various parts of a programming language and their ecosystem:
 
 - array manipulation (`Board.data`)
 - the call stack (`App.{playGame, choosePlayers}`)
-- nullability/nilability (`App.{playGame, displayWinner}`)
+- nullability/nilability (`App.playGame`, `MediumComputer.getMoves`)
 - error handling (`App.choosePlayer`, `Human.getMove`)
+- algebraic data types (`Message`)
 - OOP stuff
-  - how to implement an interface (`Player`, `Connection`)
-  - how to extend an abstract class (`Computer`)
+  - how to write an interface (`Player`, `Connection`)
+  - how to write an abstract class (`Computer`)
   - accessibility of fields and methods
 - random number generation (`Computer`)
-- unit tests
-- integration tests
-- parametric tests
-- mocking
+- unit tests (e.g. `Mark` and `Board` tests)
+- integration tests (`Application` tests)
+- parametric tests (`CommonTactics` tests)
+- mocking (`Application` and `Human` tests)
 - documentation, both editor and publishing support
 
 There are several implementations of the application in several languages.
+
+## Why?
+
+This is mainly supposed to be a learning resource for how to write useful programming patterns in many languages, like the above topics. If there is a programming topic you'd like to see and a place you think it could go, I'll be happy to hear about it!
 
 ## File Structure
 
