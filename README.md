@@ -1,6 +1,6 @@
 # tic-tac-toe-spec
 
-This is a specification of a game of tic-tac-toe. It tests the various parts of a programming language and their ecosystem:
+This is a specification of a game of tic-tac-toe. It is meant to test the various parts of a programming language and their ecosystem:
 
 - array manipulation (`Board.data`)
 - the call stack (`App.{playGame, choosePlayers}`)
@@ -18,7 +18,7 @@ This is a specification of a game of tic-tac-toe. It tests the various parts of 
 - mocking (`Application` and `Human` tests)
 - documentation, both editor and publishing support
 
-There are several implementations of the application in several languages.
+There are several implementations of the application in many languages. Progress and links can be found in [languages.md](./languages.md).
 
 ## Why?
 
@@ -26,7 +26,7 @@ This is mainly supposed to be a learning resource for how to write useful progra
 
 ## File Structure
 
-There is a general file structure for the game's source code. Here is a tree without any of the extensions.
+There is a general file structure for the game's source code. Here is a tree without any of the file extensions.
 
 ```plain
 .
@@ -45,15 +45,7 @@ There is a general file structure for the game's source code. Here is a tree wit
     └── Connection
 ```
 
-There is also a file structure for a console application using this as a library.
-
-```plain
-.
-├── ConsoleConnection
-└── Main
-```
-
-And one for the tests.
+There is also a file structure for the tests.
 
 ```plain
 .
@@ -73,7 +65,7 @@ If there is a language or runtime constraint that doesn't allow this file struct
 
 Here is a UML diagram created from my Lua implementation of the codebase.
 
-![tic-tac-toe UML](assets/images/tic_tac_toe_uml.png)
+![tic-tac-toe UML](./assets/images/tic_tac_toe_uml.png)
 
 ## Gameplay
 
@@ -81,8 +73,19 @@ A program running the tic-tac-toe game should have a workflow like below:
 
 1. The user chooses _Player X_ and _Player O_'s player type, either a _Human_ or a _Computer_.
    - If the user chooses _Computer_, they also choose its difficulty.
-2. An empty board is shown and Player X goes first.
-3. Turn alternates between X and O until a win condition is reached or the board is full.
+2. An empty _Board_ is shown and _Player X_ goes first.
+
+   - In console applications, boards can be printed out, and they usually look like this:
+
+   ```plain
+    X |   |
+   ---|---|---
+      | O |
+   ---|---|---
+      |   | X
+   ```
+
+3. Turn alternates between _Player X_ and _Player O_ until an ending condition is reached.
 4. A winner is announced. If there is no winner, a tie is announced instead.
 
 ### Difficulties
@@ -100,11 +103,13 @@ A program running the tic-tac-toe game should have a workflow like below:
 
 ## I/O
 
-The inputs and outputs of the program are sent through an abstraction layer so that messages can be tracked clearly. This is very useful for unit testing purposes; it can be mocked so that inputs can be set by tests and outputs can be compared.
+The inputs and outputs of the program are sent through an interface called a _Connection_ so that _Message_ objects can be tracked clearly. This is very useful for unit testing purposes; it can be mocked so that inputs can be set by tests and outputs can be compared.
 
-If the program receives an invalid input, it sends an error to output and asks for another input. This is specified in the tests.
+The _Message_ file enumerates all the possible messages the program may send, including info messages, prompts, and errors. The actual structure of messages depends on the language, but they should be equivalent to an enumeration where some message types take arguments, i.e. the typical usage of an algebraic datatype.
 
-In theory, this also allows completely abstracting away how the program is interacted with. A desktop application could be built around the program instead of a console application, for example.
+The program is prepared to handle invalid input from a prompt; it will send an error-labeled message to output if it occurs and ask for another input. This is specified in the tests.
+
+In theory, this also allows completely abstracting away how the program is interacted with. Even though a console application is the easiest to implement, messages could possibly be interpreted in other ways to create desktop applications and servers.
 
 ## Example Implementations
 
