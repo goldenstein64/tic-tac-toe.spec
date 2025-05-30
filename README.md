@@ -1,4 +1,4 @@
-# tic-tac-toe-spec
+# tic-tac-toe.spec
 
 This is a specification of a game of tic-tac-toe. It is meant to test the various parts of a programming language and their ecosystem:
 
