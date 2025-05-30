@@ -1,4 +1,4 @@
-This file keeps track of which programming languages and tools the tic-tac-toe specification has been implemented in. The below table is sorted by when work was approximately started on them.
+This file keeps track of which programming languages and tools the tic-tac-toe specification has been implemented in. The below table is sorted by approximately when they were started.
 
 |            | Core | Console | UI  | Multiplayer | Blockers                 |
 | ---------- | ---- | ------- | --- | ----------- | ------------------------ |
