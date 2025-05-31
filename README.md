@@ -20,11 +20,11 @@ This is a specification of a game of tic-tac-toe. It is meant to test the variou
 
 These are the programming languages and tools the tic-tac-toe specification has been implemented in. The below table is sorted by approximately when they were started.
 
-|            | Core                                                     | Console                                                  | UI  | Multiplayer | Blockers                 |
+| Language   | Core                                                     | Console                                                  | UI  | Multiplayer | Blockers                 |
 | ---------- | -------------------------------------------------------- | -------------------------------------------------------- | --- | ----------- | ------------------------ |
 | Java       | Done                                                     | Done                                                     |     |             |                          |
 | Lua        | [Done](https://github.com/goldenstein64/tic-tac-toe.lua) | [Done](https://github.com/goldenstein64/tic-tac-toe.lua) |     |             |                          |
-| Python     | [Done](https://github.com/goldenstein64/tic-tac-toe.py)                                                     | [Done](https://github.com/goldenstein64/tic-tac-toe.py)                                                     |     |             |                          |
+| Python     | [Done](https://github.com/goldenstein64/tic-tac-toe.py)  | [Done](https://github.com/goldenstein64/tic-tac-toe.py)  |     |             |                          |
 | MoonScript | Done                                                     | Done                                                     |     |             |                          |
 | Haskell    | Done                                                     | Done                                                     |     |             |                          |
 | Haxe       | Done                                                     | Done                                                     |     |             |                          |
