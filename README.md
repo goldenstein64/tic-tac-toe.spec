@@ -24,7 +24,7 @@ These are the programming languages and tools the tic-tac-toe specification has 
 | ---------- | -------------------------------------------------------- | -------------------------------------------------------- | --- | ----------- | ------------------------ |
 | Java       | Done                                                     | Done                                                     |     |             |                          |
 | Lua        | [Done](https://github.com/goldenstein64/tic-tac-toe.lua) | [Done](https://github.com/goldenstein64/tic-tac-toe.lua) |     |             |                          |
-| Python     | Done                                                     | Done                                                     |     |             |                          |
+| Python     | [Done](https://github.com/goldenstein64/tic-tac-toe.py)                                                     | [Done](https://github.com/goldenstein64/tic-tac-toe.py)                                                     |     |             |                          |
 | MoonScript | Done                                                     | Done                                                     |     |             |                          |
 | Haskell    | Done                                                     | Done                                                     |     |             |                          |
 | Haxe       | Done                                                     | Done                                                     |     |             |                          |
