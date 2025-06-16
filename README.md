@@ -28,7 +28,7 @@ These are the programming languages and tools the tic-tac-toe specification has 
 | MoonScript | Done                                                     | Done                                                     |     |             |                          |
 | Haskell    | Done                                                     | Done                                                     |     |             |                          |
 | Haxe       | Done                                                     | Done                                                     |     |             |                          |
-| C#         | Done                                                     | Done                                                     |     |             |                          |
+| C#         | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)  | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)  |     |             |                          |
 | F#         | Done                                                     | Done                                                     |     |             |                          |
 | GNU C      | Done                                                     | WIP                                                      |     |             | Mersenne Twister         |
 | VFXForth   | WIP                                                      | WIP                                                      |     |             | Adapting GForth          |
