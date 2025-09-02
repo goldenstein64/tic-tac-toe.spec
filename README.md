@@ -20,22 +20,22 @@ This is a specification of a game of tic-tac-toe. It is meant to test the variou
 
 These are the programming languages and tools the tic-tac-toe specification has been implemented in. The below table is sorted by approximately when they were started.
 
-| Language   | Core                                                     | Console                                                  | UI  | Multiplayer | Blockers                 |
-| ---------- | -------------------------------------------------------- | -------------------------------------------------------- | --- | ----------- | ------------------------ |
-| Java       | Done                                                     | Done                                                     |     |             |                          |
-| Lua        | [Done](https://github.com/goldenstein64/tic-tac-toe.lua) | [Done](https://github.com/goldenstein64/tic-tac-toe.lua) |     |             |                          |
-| Python     | [Done](https://github.com/goldenstein64/tic-tac-toe.py)  | [Done](https://github.com/goldenstein64/tic-tac-toe.py)  |     |             |                          |
-| MoonScript | Done                                                     | Done                                                     |     |             |                          |
-| Haskell    | WIP                                                      | WIP                                                      |     |             | Tests + old Computer     |
-| Haxe       | [Done](https://github.com/goldenstein64/tic-tac-toe.hx)  | [Done](https://github.com/goldenstein64/tic-tac-toe.hx)  |     |             |                          |
-| C#         | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)  | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)  |     |             |                          |
-| F#         | [Done](https://github.com/goldenstein64/tic-tac-toe.fs)  | [Done](https://github.com/goldenstein64/tic-tac-toe.fs)  |     |             |                          |
-| GNU C      | Done                                                     | WIP                                                      |     |             | Mersenne Twister         |
-| VFXForth   | WIP                                                      | WIP                                                      |     |             | Adapting GForth          |
-| Ruby       | WIP                                                      | WIP                                                      |     |             | Sorbet/Minitest incompat |
-| Rust       | Done                                                     | Done                                                     |     |             |                          |
-| TypeScript | Done                                                     | Done                                                     |     | Done-ish    |                          |
-| PowerShell | WIP                                                      | WIP                                                      |     |             |                          |
+| Language   | Core                                                      | Console                                                   | UI  | Multiplayer | Blockers                 |
+| ---------- | --------------------------------------------------------- | --------------------------------------------------------- | --- | ----------- | ------------------------ |
+| Java       | [Done](https://github.com/goldenstein64/tic-tac-toe.java) | [Done](https://github.com/goldenstein64/tic-tac-toe.java) |     |             |                          |
+| Lua        | [Done](https://github.com/goldenstein64/tic-tac-toe.lua)  | [Done](https://github.com/goldenstein64/tic-tac-toe.lua)  |     |             |                          |
+| Python     | [Done](https://github.com/goldenstein64/tic-tac-toe.py)   | [Done](https://github.com/goldenstein64/tic-tac-toe.py)   |     |             |                          |
+| MoonScript | Done                                                      | Done                                                      |     |             |                          |
+| Haskell    | WIP                                                       | WIP                                                       |     |             | Tests + old Computer     |
+| Haxe       | [Done](https://github.com/goldenstein64/tic-tac-toe.hx)   | [Done](https://github.com/goldenstein64/tic-tac-toe.hx)   |     |             |                          |
+| C#         | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)   | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)   |     |             |                          |
+| F#         | [Done](https://github.com/goldenstein64/tic-tac-toe.fs)   | [Done](https://github.com/goldenstein64/tic-tac-toe.fs)   |     |             |                          |
+| GNU C      | Done                                                      | WIP                                                       |     |             | Mersenne Twister         |
+| VFXForth   | WIP                                                       | WIP                                                       |     |             | Adapting GForth          |
+| Ruby       | WIP                                                       | WIP                                                       |     |             | Sorbet/Minitest incompat |
+| Rust       | Done                                                      | Done                                                      |     |             |                          |
+| TypeScript | Done                                                      | Done                                                      |     | Done-ish    |                          |
+| PowerShell | WIP                                                       | WIP                                                       |     |             |                          |
 
 ## Not Started
 
