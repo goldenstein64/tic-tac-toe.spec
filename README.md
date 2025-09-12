@@ -30,7 +30,7 @@ These are the programming languages and tools the tic-tac-toe specification has 
 | Haxe       | [Done](https://github.com/goldenstein64/tic-tac-toe.hx)   | [Done](https://github.com/goldenstein64/tic-tac-toe.hx)   |     |             |                          |
 | C#         | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)   | [Done](https://github.com/goldenstein64/tic-tac-toe.cs)   |     |             |                          |
 | F#         | [Done](https://github.com/goldenstein64/tic-tac-toe.fs)   | [Done](https://github.com/goldenstein64/tic-tac-toe.fs)   |     |             |                          |
-| GNU C      | WIP                                                       | WIP                                                       |     |             | Tests                    |
+| GNU C      | [Done](https://github.com/goldenstein64/tic-tac-toe.c)    | [Done](https://github.com/goldenstein64/tic-tac-toe.c)    |     |             |                          |
 | VFXForth   | WIP                                                       | WIP                                                       |     |             | Adapting GForth          |
 | Ruby       | WIP                                                       | WIP                                                       |     |             | Sorbet/Minitest incompat |
 | Rust       | [Done](https://github.com/goldenstein64/tic-tac-toe.rs)   | [Done](https://github.com/goldenstein64/tic-tac-toe.rs)   |     |             |                          |
