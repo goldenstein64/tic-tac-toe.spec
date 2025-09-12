@@ -34,7 +34,7 @@ These are the programming languages and tools the tic-tac-toe specification has 
 | VFXForth   | WIP                                                       | WIP                                                       |     |             | Adapting GForth          |
 | Ruby       | WIP                                                       | WIP                                                       |     |             | Sorbet/Minitest incompat |
 | Rust       | [Done](https://github.com/goldenstein64/tic-tac-toe.rs)   | [Done](https://github.com/goldenstein64/tic-tac-toe.rs)   |     |             |                          |
-| TypeScript | Done                                                      | Done                                                      |     | Done-ish    |                          |
+| TypeScript | [Done](https://github.com/goldenstein64/tic-tac-toe.ts)   | [Done](https://github.com/goldenstein64/tic-tac-toe.ts)   |     | Done-ish    |                          |
 | PowerShell | WIP                                                       | WIP                                                       |     |             |                          |
 
 ## Not Started
