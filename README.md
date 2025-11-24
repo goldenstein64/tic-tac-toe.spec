@@ -36,6 +36,7 @@ These are the programming languages and tools the tic-tac-toe specification has 
 | Rust       | [Done](https://github.com/goldenstein64/tic-tac-toe.rs)   | [Done](https://github.com/goldenstein64/tic-tac-toe.rs)   |     |             |                          |
 | TypeScript | [Done](https://github.com/goldenstein64/tic-tac-toe.ts)   | [Done](https://github.com/goldenstein64/tic-tac-toe.ts)   |     | Done-ish    |                          |
 | PowerShell | WIP                                                       | WIP                                                       |     |             |                          |
+| PHP        | [Done](https://github.com/goldenstein64/tic-tac-toe.php)  | [Done](https://github.com/goldenstein64/tic-tac-toe.php)  |     |             |                          |
 
 ## Not Started
 
