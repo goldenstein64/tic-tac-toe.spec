@@ -53,7 +53,6 @@ These are the programming languages and tools the tic-tac-toe specification has 
 - OCaml
 - Pascal
 - Perl
-- PHP
 - R
 - Scala
 - Scratch
